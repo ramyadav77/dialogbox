@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+font-family: 'Poppins', sans-serif;
+   
+}
+/* @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&family=Poppins:wght@300;500&display=swap'); */
+body{
+    transition: 0.5s;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 30rem;
+    /* height: 15rem; */
+    padding: 25px;
+    border-radius: 10px;
+    background-color: brown;
+    font-size: 40px;
+    text-align: center;
+
+}
+button{
+    font-size: 40px;
+    display: block;
+    width: 100%;
+    background-color: black;
+    color: blanchedalmond;
+    border: none;
+    border-radius: 8px;
+    margin-top: 5px;
+}
